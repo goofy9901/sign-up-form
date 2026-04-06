@@ -11,7 +11,9 @@
   width: 34%;
   background-image: url(leaves.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+
+  background-size: cover;
+  background-position: center;
 }
 .right {
   height: 100vh;
@@ -20,10 +22,12 @@
   display: flex;
   flex-direction: column;
 }
+
 .first {
+  flex: 3;
   background-color: bisque;
-  height: 35%;
-  font-weight: 600;
+  /* height: 35%; */
+  font-weight: 550;
   font-size: 1.5rem;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
@@ -32,10 +36,18 @@
   gap: 3em;
 }
 .second {
-  background-color: brown;
-  height: 30%;
+  flex: 2.5;
+  background-color: rgb(201, 168, 168);
+  /* height: 30%; */
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 550;
 }
 .third {
-  background-color: blueviolet;
-  height: 35%;
+  flex: 3;
+  background-color: rgb(93, 12, 169);
+  /* height: 35%; */
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 550;
 }
