@@ -8,36 +8,53 @@
   </head>
   <body>
     <div class="container">
-      <div class="left"></div>
+      <div class="left">
+        <div class="logo">
+          <img src="odin-logo.png" alt="odin-logo">
+          <span>ODIN</span>
+        </div>
+      </div>
       <div class="right">
-        <div class="first">
-          <p>
-            This is not a real online service! You know you need something like
-            this in your life to help you realize your deepest dreams. Sign up
-            <em>now</em> to get started.
-          </p>
-          <p>You <em>know</em> you want to.</p>
-        </div>
-        <div class="second">
-          <p>Let's do this!</p>
-          <div class="inputs"></div>
-          <label for="fname" class="label">FIRST NAME</label>
-          <input type="text" id="fname" class="inp" />
-          <label for="lname" class="label">LAST NAME</label>
-          <input type="text" id="lname" class="inp" />
-          <label for="email" class="label">EMAIL</label>
-          <input type="email" id="email" class="inp" />
-          <label for="pnum" class="label">PHONE NUMBER</label>
-          <input type="tel" id="pnum" class="inp" />
-          <label for="pass" class="label">PASSWORD</label>
-          <input type="password" id="pass" class="inp" required />
-          <label for="conpass" class="label">CONFIRM PASSWORD</label>
-          <input type="password" id="conpass" class="inp" required />
-        </div>
+        <div class="content">
+          <div class="first">
+            <p>
+              This is not a real online service! You know you need something
+              like this in your life to help you realize your deepest dreams.
+              Sign up
+              <em>now</em> to get started.
+            </p>
+            <p>You <em>know</em> you want to.</p>
+          </div>
+          <div class="second">
+            <p class="letsdo">Let's do this!</p>
+            <div class="inputs">
+              <div class="lcol">
+                <label for="fname" class="label">FIRST NAME</label>
+                <input type="text" id="fname" class="inp" />
+                <label for="email" class="label">EMAIL</label>
+                <input type="email" id="email" class="inp" />
+                <label for="pass" class="label">PASSWORD</label>
+                <input type="password" id="pass" class="inp" required />
+              </div>
+              <div class="rcol">
+                <label for="lname" class="label">LAST NAME</label>
+                <input type="text" id="lname" class="inp" />
+                <label for="pnum" class="label">PHONE NUMBER</label>
+                <input type="tel" id="pnum" class="inp" />
 
-        <div class="third">
-          <button class="btn">Create Account</button>
-          <p>Already have an account? Log in</p>
+                <label for="conpass" class="label">CONFIRM PASSWORD</label>
+                <input type="password" id="pass" class="inp" required />
+              </div>
+            </div>
+          </div>
+
+          <div class="third">
+            <button class="btn">Create Account</button>
+            <div class="para">
+              <p>Already have an account?
+                <p class="log">Log in</p></p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
